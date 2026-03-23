@@ -14,3 +14,8 @@ while(contador <= 3){ // condição de parada
 }
 
 // criar um laço de repetição para contar de 0 até 1000000
+let c = 0
+while (c<=1000000){
+    console.log(c)
+    c++
+}
