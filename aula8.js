@@ -32,7 +32,8 @@ function mostrarESTOQUE() {
     mercado.forEach((produto) => {
         console.log(produto.nome + 
             " - R$ " + produto.preco + 
-            " - Quantidade: " + produto.quantidade)
+            " - Quantidade: " + produto.quantidade +
+            " - Peso: " + produto.peso)
     })
 }
 mostrarESTOQUE()
